@@ -1,0 +1,11 @@
+{
+    "asset": "f3a057e671c25774f80be90f573d60ff",
+    "fileName": "019b8405-fa4a-728d-89fc-733073cea8d3_Preview.png",
+    "prompt": "tiles",
+    "negativePrompt": "",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 2133194980,
+    "w3CTraceId": "58fb0f30b2e7c1fb8af1a1ad6fb83ebc",
+    "refinementMode": "Generation"
+}
