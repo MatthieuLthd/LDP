@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/popupTest.unity
     guid: f6ef04db372ec7846adc902b8a2b7b58
+  - enabled: 1
+    path: Assets/Scenes/StreamDiff.unity
+    guid: 4049417b4d7a8bb46a483cf8347ccd3b
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

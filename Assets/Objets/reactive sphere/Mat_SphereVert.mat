@@ -52,7 +52,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AudioStrength: 0.33054498
+    - _AudioStrength: 0.11242665
     - _QueueControl: 0
     - _QueueOffset: 0
     - _XRMotionVectorsPass: 1
