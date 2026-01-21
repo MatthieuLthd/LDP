@@ -8902,7 +8902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a09ab5fc64402d49b12d170a7577986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Klak.Ndi.Runtime::Klak.Ndi.NdiReceiver
-  _ndiName: 
+  _ndiName: ZEPHYRUSDEMATT (StreamDiffNDI)
   _targetTexture: {fileID: 8400000, guid: b94625c87b346684d8994485b64a489e, type: 2}
   _targetRenderer: {fileID: 0}
   _targetMaterialProperty: 
