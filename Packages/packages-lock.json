@@ -305,6 +305,16 @@
         "com.unity.searcher": "4.9.3"
       }
     },
+    "com.unity.terrain-tools": {
+      "version": "5.3.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.6.0",
       "depth": 0,
@@ -438,6 +448,16 @@
         "com.unity.modules.screencapture": "1.0.0"
       },
       "url": "https://registry.npmjs.com"
+    },
+    "org.nesnausk.gaussian-splatting": {
+      "version": "file:C:/Users/mattl/Documents/Gaussian/UnityGaussianSplatting-main/UnityGaussianSplatting-main/package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.collections": "2.1.4",
+        "com.unity.mathematics": "1.2.6"
+      }
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
