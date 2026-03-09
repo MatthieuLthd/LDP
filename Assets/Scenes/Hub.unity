@@ -13562,7 +13562,7 @@ GameObject:
   - component: {fileID: 1746624969}
   - component: {fileID: 1746624968}
   m_Layer: 0
-  m_Name: Hub 1
+  m_Name: scene1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

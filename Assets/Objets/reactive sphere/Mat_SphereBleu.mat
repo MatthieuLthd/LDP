@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_Sphere
-  m_Shader: {fileID: -6465566751694194690, guid: 80a5bc3fe68109d489f9f114aaf77aef, type: 3}
+  m_Name: Mat_SphereBleu
+  m_Shader: {fileID: -6465566751694194690, guid: b522530ea049b404ba739dd438421ef1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -52,7 +52,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AudioStrength: 7.9557784e-11
+    - _AudioStrength: 8e-45
     - _QueueControl: 0
     - _QueueOffset: 0
     - _XRMotionVectorsPass: 1
