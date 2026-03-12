@@ -94,7 +94,7 @@ public class CompleteTerrainManager : MonoBehaviour
             GameObject instance = Instantiate(element.prefab, pivot.transform);
             instance.transform.localPosition = Vector3.zero;
             instance.transform.localRotation = Quaternion.identity;
-            instance.transform.localScale = element.scale;
+            pivot.transform.localScale = element.scale;
 
             // 4. Lancement du cycle de vie (Entrée -> Attente -> Sortie -> Destruction)
             StartCoroutine(LifeCycleRoutine(instance, pivot, element));
