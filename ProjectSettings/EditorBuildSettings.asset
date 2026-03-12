@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 615e2aa4cd302c340b3799331c918304
   - enabled: 1
     path: Assets/Scenes/Hub 1.unity
-    guid: f29768abf71a2844b9b8c16ad4e8c465
+    guid: dffb59438151a8441bd0029623012a3f
   - enabled: 1
     path: Assets/Scenes/popupTest.unity
     guid: f6ef04db372ec7846adc902b8a2b7b58
@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene1.unity
     guid: 629d50d98abd67f4fa40e238d53d78d1
+  - enabled: 1
+    path: "Assets/pakage import/prototype/sc\xE8ne3.unity"
+    guid: 2e11cd4ddfa5f9d44a925568167d714d
+  - enabled: 1
+    path: "Assets/pakage import/prototype/sc\xE8ne2.unity"
+    guid: 342a8baebc231f849aa032029e0881d9
+  - enabled: 0
+    path: "Assets/pakage import/prototype/sc\xE8ne1.unity"
+    guid: 112c839bda9b2dc4e9e6064290995af3
+  - enabled: 1
+    path: "Assets/Scenes/sc\xE8ne1.unity"
+    guid: 36e1c8e5d8d148840a7c1a8a3e58505a
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
