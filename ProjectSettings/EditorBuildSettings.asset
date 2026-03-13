@@ -20,24 +20,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StreamDiff.unity
     guid: 4049417b4d7a8bb46a483cf8347ccd3b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scene1.unity
     guid: 629d50d98abd67f4fa40e238d53d78d1
-  - enabled: 1
-    path: "Assets/pakage import/prototype/sc\xE8ne3.unity"
+  - enabled: 0
+    path: "Assets/Scenes/sc\xE8ne3.unity"
     guid: 2e11cd4ddfa5f9d44a925568167d714d
-  - enabled: 1
-    path: "Assets/pakage import/prototype/sc\xE8ne2.unity"
+  - enabled: 0
+    path: "Assets/Scenes/sc\xE8ne2.unity"
     guid: 342a8baebc231f849aa032029e0881d9
   - enabled: 0
     path: "Assets/pakage import/prototype/sc\xE8ne1.unity"
-    guid: 112c839bda9b2dc4e9e6064290995af3
-  - enabled: 1
-    path: "Assets/pakage import/prototype/sc\xE8ne4.unity"
+    guid: 58aecc29e70fcec4cb7f5d1b7ee9b4c1
+  - enabled: 0
+    path: "Assets/Scenes/sc\xE8ne4.unity"
     guid: 4e5dff8ce89c005488bf5f09af437464
   - enabled: 1
     path: "Assets/Scenes/sc\xE8ne1.unity"
-    guid: 36e1c8e5d8d148840a7c1a8a3e58505a
+    guid: b24cdafc5b4d9814a990c915194e0327
+  - enabled: 1
+    path: "Assets/pakage import/prototype/sc\xE8ne2.unity"
+    guid: d9f13fdefea54f842ac7b7be0e2d08b4
+  - enabled: 1
+    path: "Assets/pakage import/prototype/sc\xE8ne3.unity"
+    guid: a518e3a00647ea34786b50b65aa97cdf
+  - enabled: 1
+    path: "Assets/pakage import/prototype/sc\xE8ne4.unity"
+    guid: e01299fde91b2a74db6c11fe3a587884
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
