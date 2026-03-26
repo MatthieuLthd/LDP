@@ -17095,94 +17095,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ElementManager
   listeElements:
-  - nomOutil: Voiture1
-    estActif: 1
-    objetDansLaScene: {fileID: 3447390769297842344}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 28
-    dureeDePresence: 3
-    dureeAnimSortie: 2
   - nomOutil: Voiture2
     estActif: 1
-    objetDansLaScene: {fileID: 1240797840}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 32
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture2.5
-    estActif: 1
-    objetDansLaScene: {fileID: 1576936745}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 36
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture3
-    estActif: 1
-    objetDansLaScene: {fileID: 1200235384}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 41
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture4
-    estActif: 1
-    objetDansLaScene: {fileID: 442699678}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 46
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture5
-    estActif: 1
-    objetDansLaScene: {fileID: 971323420}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 50
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture6
-    estActif: 1
-    objetDansLaScene: {fileID: 955860427}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 55
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture7
-    estActif: 1
-    objetDansLaScene: {fileID: 638720261}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 60
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture8
-    estActif: 1
-    objetDansLaScene: {fileID: 1664798880}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 65
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture9
-    estActif: 1
-    objetDansLaScene: {fileID: 2143988457}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 70
-    dureeDePresence: 3
-    dureeAnimSortie: 2
-  - nomOutil: Voiture10
-    estActif: 1
-    objetDansLaScene: {fileID: 329848907}
-    nomAnimEntree: "voituresc\xE8ne4"
-    nomAnimSortie: "voituresc\xE8ne4e"
-    delaiAvantApparition: 73
-    dureeDePresence: 3
-    dureeAnimSortie: 2
+    objetDansLaScene: {fileID: 570963164}
+    nomAnimEntree: 
+    nomAnimSortie: 
+    delaiAvantApparition: 33
+    dureeDePresence: 100
+    dureeAnimSortie: 200
 --- !u!1 &422604967
 GameObject:
   m_ObjectHideFlags: 0
@@ -18552,81 +18472,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &462800167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 462800168}
-  - component: {fileID: 462800169}
-  m_Layer: 0
-  m_Name: spawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &462800168
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462800167}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2439.0383, y: -441.2242, z: 3368.729}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &462800169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462800167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 7917306107734926351, guid: d7fee3f680d777f42ae4f3a3c1f4b9d0, type: 3}
-    isEnabled: 1
-    count: 55
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 7738198456414345577, guid: 958891bd646548a408cee5cc69c74fbc, type: 3}
-    isEnabled: 1
-    count: 70
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 3000, y: 3000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &463635940
 GameObject:
   m_ObjectHideFlags: 0
@@ -20026,81 +19871,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &490885431
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 490885432}
-  - component: {fileID: 490885433}
-  m_Layer: 0
-  m_Name: spawner (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &490885432
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490885431}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -449.03833, y: -441.2242, z: 7372.7285}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &490885433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490885431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 7738198456414345577, guid: 958891bd646548a408cee5cc69c74fbc, type: 3}
-    isEnabled: 1
-    count: 50
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 8626066612114967192, guid: a915e03c0636b074f9cb5237f1ea1764, type: 3}
-    isEnabled: 1
-    count: 65
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 3000, y: 3000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &491001049
 GameObject:
   m_ObjectHideFlags: 0
@@ -24054,6 +23824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voiture-2-2D
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25e5a50f5d2f0bb40afd6b75ede4b9c2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24061,6 +23835,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 25e5a50f5d2f0bb40afd6b75ede4b9c2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 570963165}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 25e5a50f5d2f0bb40afd6b75ede4b9c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 570963166}
   m_SourcePrefab: {fileID: 100100000, guid: 25e5a50f5d2f0bb40afd6b75ede4b9c2, type: 3}
 --- !u!1 &570963164 stripped
 GameObject:
@@ -24081,15 +23858,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineAnimate
   m_Target: {fileID: 1202756713}
   m_PlayOnAwake: 1
-  m_LoopMode: 1
+  m_LoopMode: 0
   m_Method: 1
-  m_Duration: 61.445023
-  m_MaxSpeed: 9
-  m_EasingMode: 1
+  m_Duration: 27.255444
+  m_MaxSpeed: 10
+  m_EasingMode: 0
   m_AlignmentMode: 1
   m_ObjectForwardAxis: 0
   m_ObjectUpAxis: 2
   m_StartOffset: 0
+--- !u!114 &570963166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570963164}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16acdae8d832e4148af0f05ebe4f32ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  animationSpline: {fileID: 570963165}
+  profilDeVitesse:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.12392401
+      outSlope: 0.12392401
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 8.132011
+      value: 1.0077515
+      inSlope: 0.0017785579
+      outSlope: 0.0017785579
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 14.278163
+      value: 0.2679583
+      inSlope: -0.062196676
+      outSlope: -0.062196676
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18.928715
+      value: 0.24923307
+      inSlope: 0.021914734
+      outSlope: 0.021914734
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.95984256
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 31.186954
+      value: 1.0077661
+      inSlope: 0.061879445
+      outSlope: 0.061879445
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vitesseMaximum: 15
 --- !u!1 &572174340
 GameObject:
   m_ObjectHideFlags: 0
@@ -25350,7 +25192,7 @@ Transform:
   m_GameObject: {fileID: 618115451}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.07, y: -34.62, z: -358.74}
+  m_LocalPosition: {x: -17.6, y: -36.77, z: -358.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26801,7 +26643,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 0a1e5538e9fbd934382f03ea772d1586, type: 3}
+  m_Resource: {fileID: 8300000, guid: 19027c3ec16aa14449285610b3bc8dcb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.038
   m_Pitch: 1
@@ -34103,7 +33945,7 @@ MonoBehaviour:
     duration: 20
   - name: voiture
     prefab: {fileID: 2059788150}
-    delayBeforeStart: 20
+    delayBeforeStart: 22
     targetState: 1
     duration: 100
   - name: Voix3
@@ -35474,7 +35316,7 @@ Transform:
   m_GameObject: {fileID: 848288202}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.07, y: -34.62, z: -358.74}
+  m_LocalPosition: {x: -17.16, y: -36.3, z: -358.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43218,7 +43060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f832dc655c82aa647963696c57420049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  sceneToLoad: Hub
+  sceneToLoad: MM
   delayBeforeStart: 67
   totalFadeDuration: 5
 --- !u!4 &1034641840
@@ -44747,81 +44589,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 273138977}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1082189140
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1082189141}
-  - component: {fileID: 1082189142}
-  m_Layer: 0
-  m_Name: spawner (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1082189141
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082189140}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3592.0383, y: -441.2242, z: -143.27115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1082189142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082189140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 7917306107734926351, guid: d7fee3f680d777f42ae4f3a3c1f4b9d0, type: 3}
-    isEnabled: 1
-    count: 40
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 8412928793112871447, guid: 544dd70ad4ebc11429d6f80629c1b526, type: 3}
-    isEnabled: 1
-    count: 45
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 700, y: 4000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &1082367926
 GameObject:
   m_ObjectHideFlags: 0
@@ -47852,7 +47619,7 @@ Transform:
   m_GameObject: {fileID: 1145720264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.07, y: -34.62, z: -358.74}
+  m_LocalPosition: {x: -18.06, y: -36.44, z: -358.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48278,7 +48045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eea63007d7ecf14a827cc25e463cf32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioReactor
-  targetMaterial: {fileID: 2100000, guid: 9e7a34bf314883e42b9cb24d9f327b91, type: 2}
+  targetMaterial: {fileID: 2100000, guid: eb8681e32d8677a4b93d33fef460e868, type: 2}
   parameterName: _AudioStrength
   sensitivity: 1
   smoothSpeed: 3.7
@@ -50041,41 +49808,41 @@ MonoBehaviour:
           z: 0.115391895
           w: 0.8869145
     - Position:
-        x: 96.74813
-        y: 15.437535
-        z: 70.42237
+        x: 96.55813
+        y: 15.617536
+        z: 69.13237
       TangentIn:
         x: -0
         y: -0
-        z: -3.2575848
+        z: -2.9938974
       TangentOut:
         x: 0
         y: 0
-        z: 2.9471042
+        z: 2.6559784
       Rotation:
         value:
-          x: -0.027509222
-          y: 0.77864313
-          z: 0.12281949
-          w: 0.6147142
+          x: -0.037814893
+          y: 0.8199419
+          z: 0.12244097
+          w: 0.5579189
     - Position:
-        x: 103.40813
-        y: 17.967535
-        z: 63.322372
+        x: 101.33813
+        y: 17.917536
+        z: 61.562374
       TangentIn:
         x: 0
         y: 0
-        z: -5.9411488
+        z: -6.261667
       TangentOut:
         x: 0
         y: 0
         z: 3.045079
       Rotation:
         value:
-          x: -0.07163676
-          y: 0.9719951
-          z: 0.041548148
-          w: -0.21992564
+          x: -0.064047255
+          y: 0.9946741
+          z: 0.052137967
+          w: -0.061668217
     - Position:
         x: 100.368126
         y: 19.047535
@@ -58709,81 +58476,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 40672617c6167a041bd2bf847212c833, type: 3}
   m_PrefabInstance: {fileID: 1408417618}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1410523030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1410523031}
-  - component: {fileID: 1410523032}
-  m_Layer: 0
-  m_Name: spawner (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1410523031
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410523030}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4471.962, y: -441.2242, z: 8492.729}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1410523032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410523030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 7917306107734926351, guid: d7fee3f680d777f42ae4f3a3c1f4b9d0, type: 3}
-    isEnabled: 1
-    count: 45
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 8412928793112871447, guid: 544dd70ad4ebc11429d6f80629c1b526, type: 3}
-    isEnabled: 1
-    count: 55
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 3000, y: 3000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &1411706506
 GameObject:
   m_ObjectHideFlags: 0
@@ -59217,81 +58909,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &1418737292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1418737293}
-  - component: {fileID: 1418737294}
-  m_Layer: 0
-  m_Name: spawner (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1418737293
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418737292}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2679.9617, y: -441.2242, z: -605.2711}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1418737294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418737292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 919132149155446097, guid: 25fe4bba039c84c4798e84da6850a949, type: 3}
-    isEnabled: 1
-    count: 50
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 919132149155446097, guid: b6392efe44586b440b6ce1f89c0c554d, type: 3}
-    isEnabled: 1
-    count: 45
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 1500, y: 4000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &1420114662
 GameObject:
   m_ObjectHideFlags: 0
@@ -81838,81 +81455,6 @@ Transform:
   - {fileID: 339234990}
   m_Father: {fileID: 614457991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1927473334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1927473335}
-  - component: {fileID: 1927473336}
-  m_Layer: 0
-  m_Name: spawner (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1927473335
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927473334}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 75.96167, y: -441.2242, z: 2270.729}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063791633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1927473336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927473334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b600cbab9aaf42241a76ba41407f1ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TerrainMeshSpawner
-  initialGlobalDelay: 5
-  delayBetweenSpawns: 0.1
-  elementsToSpawn:
-  - label: Arbre1
-    prefab: {fileID: 8626066612114967192, guid: a915e03c0636b074f9cb5237f1ea1764, type: 3}
-    isEnabled: 1
-    count: 40
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 6, y: 6, z: 6}
-    overlapRadius: 15
-  - label: Arbre2
-    prefab: {fileID: 8412928793112871447, guid: 544dd70ad4ebc11429d6f80629c1b526, type: 3}
-    isEnabled: 1
-    count: 45
-    entryAnimName: Arbres
-    exitAnimName: ArbresExit
-    delayBeforeExit: 55
-    exitAnimDuration: 3
-    scale: {x: 7, y: 7, z: 7}
-    overlapRadius: 15
-  areaSize: {x: 2000, y: 1000}
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  alignToSurfaceNormal: 1
 --- !u!1 &1928441782
 GameObject:
   m_ObjectHideFlags: 0
@@ -86938,12 +86480,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 462800168}
-  - {fileID: 1927473335}
-  - {fileID: 490885432}
-  - {fileID: 1410523031}
-  - {fileID: 1418737293}
-  - {fileID: 1082189141}
   - {fileID: 418506528}
   m_Father: {fileID: 2095985304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

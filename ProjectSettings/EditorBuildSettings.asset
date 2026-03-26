@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/KJ.unity
     guid: 05bcde391f5c01640a2d46afac4f2fde
   - enabled: 1
+    path: Assets/Scenes/MM.unity
+    guid: bb80505680f6d864c994a85b27b1d11e
+  - enabled: 1
     path: Assets/Scenes/MG.unity
     guid: 849ebc5afe22fc0488310aa9d41627db
   m_configObjects:
